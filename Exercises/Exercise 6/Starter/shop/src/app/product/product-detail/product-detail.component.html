@@ -1,0 +1,24 @@
+<h2 *ngIf="productGroup$ | async as productgroup">
+    <a [routerLink]="['../../', productgroup.id]">< {{ productgroup.name }}</a>
+</h2>
+<div *ngIf="product$ | async as product">
+    <h2>{{product?.brand?.name}} {{product?.name}}</h2>
+    <img src="https://angular-training.azureedge.net/{{product?.image}}" />
+</div>
+<nav>
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link" routerLink="general" routerLinkActive="active">General</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['prices']" routerLinkActive="active">Prices</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['reviews']" routerLinkActive="active">Reviews</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['review']" routerLinkActive="active">Your Review</a>
+        </li>
+    </ul>
+</nav>
+<router-outlet></router-outlet>

@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row">
+       <div class="col-md-12" *ngFor="let productgroup of productGroups$ | async">
+            <a class="card box-shadow btn" role="button" (click)="selectGroup(productgroup)" href="#">
+                <div class="row">
+                    <img src="https://angular-training.azureedge.net/{{productgroup.image}}" [alt]="productgroup.name" class="col-md-3" />
+                    <span class="card-title col-md-9 text-left">{{productgroup.name}}</span>
+                </div>             
+            </a>
+        </div>
+    </div>
+  </div>
+

@@ -1,0 +1,37 @@
+<!-- TODO: 5 Modify this view to use the reviewForm FromGroup 
+    Test the application
+-->
+
+<div class="container">
+    <div [hidden]="submitted">
+        <h3>Your Review</h3>
+        <form (ngSubmit)="onSubmit()">
+            <div class="form-group">
+                <label for="score">Your score</label>
+                <input class="form-control" type="number" name="score" />
+                <div [hidden]="false">
+                    You have to specify a score
+                </div>
+                <div [hidden]="false">
+                  Score too high or too low
+              </div>
+            </div>
+            <div class="form-group">
+                <label for="author">Your name</label>
+                <input type="text" class="form-control" name="author" />
+                <div [hidden]="false">
+                    You have to specify your name
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="text">Your review</label>
+                <textarea type="text" class="form-control" name="text" rows="8" ></textarea>
+                <div [hidden]="false">
+                    Please enter a review
+                </div>
+            </div>
+            <button type="submit" class="btn btn-success" [disabled]="true">Submit</button>
+        </form>
+    </div>
+  </div>
+  

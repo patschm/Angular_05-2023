@@ -1,0 +1,15 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th>Shop</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let shop of prices$ | async">
+            <td>{{shop.shopName}}</td>
+            <td>{{shop.basePrice | currency:'EUR':'symbol' }}</td>
+        </tr>
+    </tbody>
+  </table>
+  

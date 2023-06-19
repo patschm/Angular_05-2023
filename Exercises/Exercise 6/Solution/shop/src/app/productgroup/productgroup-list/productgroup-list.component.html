@@ -1,0 +1,14 @@
+
+<div class="row">
+    <div class="col-md-4" *ngFor="let productgroup of productGroups$ | async" [routerLink]="['/products', productgroup.id]">
+        <a class="card mb-4 box-shadow" role="button" (click)="selectGroup(productgroup)">
+            <img src="https://angular-training.azureedge.net/{{productgroup.image}}" [alt]="productgroup.name" class="mx-auto card-img-top" />
+            <div class="card-body text-center">
+                <h5 class="card-title">{{productgroup.name}}</h5>
+            </div>
+        </a>
+    </div>
+</div>
+
+
+

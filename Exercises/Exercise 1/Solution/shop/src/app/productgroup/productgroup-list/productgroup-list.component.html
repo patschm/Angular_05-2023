@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row">
+        <!--TODO: 2
+            Create the following fragment for each element in productGroups
+            Bind the image source to image and alt to name
+            display name in figcaption
+            hint: Images can be found at cdn https://angular-training.azureedge.net/
+        -->
+        <div class="col-md-4" *ngFor="let productgroup of productGroups">
+            <a class="card mb-4 box-shadow" role="button">
+                    <img src="https://angular-training.azureedge.net/{{productgroup.image}}"  [alt]="productgroup.name" class="mx-auto card-img-top" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">{{productgroup.name}}</h5>
+                        <a href="#" class="btn btn-primary">Products</a>
+                    </div>
+            </a>
+        </div>
+    </div>
+  </div>
+

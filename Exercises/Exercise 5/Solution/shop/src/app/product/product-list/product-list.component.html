@@ -1,0 +1,23 @@
+<h1>{{productGroup?.name}}</h1>
+<table class="table table-striped">
+    <tbody>
+        <!-- TODO: 9
+        Examine this routerLink. We defined a productDetail under product/id
+        However the path will be whatever/product/id 
+        Change /product to ../product 
+        -->
+        <tr *ngFor="let p of products" [routerLink]="['../product', p.id]" (click)="selectProduct(p)">
+            <td>
+                <img src="https://angular-training.azureedge.net/{{p.image}}" [alt]="p.name" />
+            </td>
+            <td>
+                <h3>{{p.brand.name}}</h3>
+            </td>
+            <td>
+                <h3>{{p.name}}</h3>        
+            </td>
+        </tr>
+    </tbody>  
+</table>
+
+

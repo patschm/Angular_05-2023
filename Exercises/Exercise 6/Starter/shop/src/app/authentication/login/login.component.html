@@ -1,0 +1,16 @@
+<form (ngSubmit)="onSubmit()" #loginform="ngForm">
+  <div class="form-group">
+    <label for="username">Username</label>
+    <input class="form-control" type="text" name="username" [(ngModel)]="username" #uname="ngModel" required="required" />
+    <span *ngIf="uname.invalid && !uname.pristine">Username is required</span>
+  </div>
+  <div class="form-group">
+    <label for="password">Password</label>
+    <input class="form-control" type="text" name="password" [(ngModel)]="password" #pword="ngModel" required="required" />
+    <span *ngIf="pword.invalid && !pword.pristine">Password is required</span>
+  </div>
+  <span *ngIf="!uname.valid || !pword.valid || !isAuthenticated">{{ message }}</span>
+  <br/>
+  <button type="submit" [disabled]="loginform.form.invalid">Login</button>
+</form>
+

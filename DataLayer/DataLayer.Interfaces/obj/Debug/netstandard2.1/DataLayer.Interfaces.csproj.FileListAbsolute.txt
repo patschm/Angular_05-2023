@@ -1,0 +1,9 @@
+E:\Angular\DataLayer\DataLayer.Interfaces\bin\Debug\netstandard2.1\DataLayer.Interfaces.deps.json
+E:\Angular\DataLayer\DataLayer.Interfaces\bin\Debug\netstandard2.1\DataLayer.Interfaces.dll
+E:\Angular\DataLayer\DataLayer.Interfaces\bin\Debug\netstandard2.1\DataLayer.Interfaces.pdb
+E:\Angular\DataLayer\DataLayer.Interfaces\obj\Debug\netstandard2.1\DataLayer.Interfaces.AssemblyInfoInputs.cache
+E:\Angular\DataLayer\DataLayer.Interfaces\obj\Debug\netstandard2.1\DataLayer.Interfaces.AssemblyInfo.cs
+E:\Angular\DataLayer\DataLayer.Interfaces\obj\Debug\netstandard2.1\DataLayer.Interfaces.csproj.CoreCompileInputs.cache
+E:\Angular\DataLayer\DataLayer.Interfaces\obj\Debug\netstandard2.1\DataLayer.Interfaces.dll
+E:\Angular\DataLayer\DataLayer.Interfaces\obj\Debug\netstandard2.1\DataLayer.Interfaces.pdb
+E:\Angular\DataLayer\DataLayer.Interfaces\obj\Debug\netstandard2.1\DataLayer.Interfaces.csprojAssemblyReference.cache

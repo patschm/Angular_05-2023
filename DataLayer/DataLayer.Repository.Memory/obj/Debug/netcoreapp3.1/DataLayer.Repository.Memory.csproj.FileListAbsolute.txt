@@ -1,0 +1,12 @@
+E:\Angular\DataLayer\DataLayer.Repository.Memory\obj\Debug\netcoreapp3.1\DataLayer.Repository.Memory.csprojAssemblyReference.cache
+E:\Angular\DataLayer\DataLayer.Repository.Memory\obj\Debug\netcoreapp3.1\DataLayer.Repository.Memory.AssemblyInfoInputs.cache
+E:\Angular\DataLayer\DataLayer.Repository.Memory\obj\Debug\netcoreapp3.1\DataLayer.Repository.Memory.AssemblyInfo.cs
+E:\Angular\DataLayer\DataLayer.Repository.Memory\obj\Debug\netcoreapp3.1\DataLayer.Repository.Memory.csproj.CoreCompileInputs.cache
+E:\Angular\DataLayer\DataLayer.Repository.Memory\bin\Debug\netcoreapp3.1\DataLayer.Interfaces.dll
+E:\Angular\DataLayer\DataLayer.Repository.Memory\bin\Debug\netcoreapp3.1\DataLayer.Interfaces.pdb
+E:\Angular\DataLayer\DataLayer.Repository.Memory\obj\Debug\netcoreapp3.1\DataLayer.Repository.Memory.csproj.CopyComplete
+E:\Angular\DataLayer\DataLayer.Repository.Memory\bin\Debug\netcoreapp3.1\DataLayer.Repository.Memory.deps.json
+E:\Angular\DataLayer\DataLayer.Repository.Memory\bin\Debug\netcoreapp3.1\DataLayer.Repository.Memory.dll
+E:\Angular\DataLayer\DataLayer.Repository.Memory\bin\Debug\netcoreapp3.1\DataLayer.Repository.Memory.pdb
+E:\Angular\DataLayer\DataLayer.Repository.Memory\obj\Debug\netcoreapp3.1\DataLayer.Repository.Memory.dll
+E:\Angular\DataLayer\DataLayer.Repository.Memory\obj\Debug\netcoreapp3.1\DataLayer.Repository.Memory.pdb

@@ -1,0 +1,6 @@
+C:\DataLayer\DataLayer.Repository.Memory\bin\Debug\netstandard1.4\DataLayer.Repository.Memory.deps.json
+C:\DataLayer\DataLayer.Repository.Memory\bin\Debug\netstandard1.4\DataLayer.Repository.Memory.dll
+C:\DataLayer\DataLayer.Repository.Memory\bin\Debug\netstandard1.4\DataLayer.Repository.Memory.pdb
+C:\DataLayer\DataLayer.Repository.Memory\obj\Debug\netstandard1.4\DataLayer.Repository.Memory.AssemblyInfo.cs
+C:\DataLayer\DataLayer.Repository.Memory\obj\Debug\netstandard1.4\DataLayer.Repository.Memory.dll
+C:\DataLayer\DataLayer.Repository.Memory\obj\Debug\netstandard1.4\DataLayer.Repository.Memory.pdb

@@ -1,0 +1,4 @@
+E:\Angular\DataLayer\DataLayer.Repository.Memory\obj\Debug\netstandard2.1\DataLayer.Repository.Memory.csprojAssemblyReference.cache
+E:\Angular\DataLayer\DataLayer.Repository.Memory\obj\Debug\netstandard2.1\DataLayer.Repository.Memory.AssemblyInfoInputs.cache
+E:\Angular\DataLayer\DataLayer.Repository.Memory\obj\Debug\netstandard2.1\DataLayer.Repository.Memory.AssemblyInfo.cs
+E:\Angular\DataLayer\DataLayer.Repository.Memory\obj\Debug\netstandard2.1\DataLayer.Repository.Memory.csproj.CoreCompileInputs.cache

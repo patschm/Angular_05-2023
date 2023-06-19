@@ -1,0 +1,30 @@
+<div class="container">
+    <h3>Reviews</h3>
+    <div class="row-sm-4">
+        <ul class="list-group">
+            <li class="list-group-item" *ngFor="let review of reviews">
+                <article>
+                    <header>
+                        <h4>Score: {{review.score}}</h4>
+                    </header>
+                    <section>
+                        {{review.text}}
+                        <h5>{{review.author}}</h5>
+                    </section>
+  
+                </article>
+            </li>
+        </ul>
+    </div>
+    <hr/>
+    <div class="row-sm-8 justify-content-start">
+        <!--TODO: 6
+            - Bind productID to productID from the ReviewFormComponent
+            - Bind the onAdd function to the add event
+
+            Test the app
+        -->
+        <app-product-review></app-product-review>
+    </div>
+  </div>
+  

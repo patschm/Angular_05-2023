@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "fFPDOB9msfN+rZDhDCHsW0m/7fdJ8s3hvi1J1mKBHtPNq3pLjlnKglWoHiP55HMMhyk4qDdE8Di51lYZVcMp6g==",
+  "success": true,
+  "projectFilePath": "C:\\Repos\\Angular_05-2023\\DataLayer\\DataLayer.Repository.Memory\\DataLayer.Repository.Memory.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vmjoin\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\vmjoin\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\vmjoin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\vmjoin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}

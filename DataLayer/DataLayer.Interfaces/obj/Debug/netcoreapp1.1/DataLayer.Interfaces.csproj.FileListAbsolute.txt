@@ -1,0 +1,6 @@
+C:\DataLayer\DataLayer.Interfaces\bin\Debug\netcoreapp1.1\DataLayer.Interfaces.deps.json
+C:\DataLayer\DataLayer.Interfaces\bin\Debug\netcoreapp1.1\DataLayer.Interfaces.dll
+C:\DataLayer\DataLayer.Interfaces\bin\Debug\netcoreapp1.1\DataLayer.Interfaces.pdb
+C:\DataLayer\DataLayer.Interfaces\obj\Debug\netcoreapp1.1\DataLayer.Interfaces.AssemblyInfo.cs
+C:\DataLayer\DataLayer.Interfaces\obj\Debug\netcoreapp1.1\DataLayer.Interfaces.dll
+C:\DataLayer\DataLayer.Interfaces\obj\Debug\netcoreapp1.1\DataLayer.Interfaces.pdb

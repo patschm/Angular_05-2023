@@ -1,0 +1,63 @@
+<div class="container">
+    <!--TODO: 3
+    Make sure the following div is hidden when the form is submitted
+    -->
+    <div>
+        <h3>Your Review</h3>
+        <!--TODO: 4
+            - Bind ngSubmit to the submit function
+            - Define a template variable reviewForm
+        -->
+        <form>
+            <div class="form-group">
+                <label for="score">Your score</label>
+                <!--TODO: 5
+                    - Bind this element's value to the score
+                    - Define a template variable score
+                -->
+                <input class="form-control" type="number" min="0" max="5" id="score" name="score" required="required" />
+                <!--TODO: 6
+                    Hide this div if the field is valid or pristine
+                -->
+                <div>
+                    You have to specify a score
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="author">Your name</label>
+                <!--TODO: 7
+                    - Bind this element's value to the author
+                    - Define a template variable name
+                 -->
+                <input type="text" class="form-control" id="author" name="author" required="required" />
+                <!--TODO: 8
+                    Hide this div if the field is valid or pristine
+                -->
+                <div>
+                    You have to specify your name
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="text">Your review</label>
+                <!--TODO: 9
+                    - Bind this element's value to the text
+                    - Define a template variable text
+                 -->
+                <textarea type="text" class="form-control" id="text" name="text" required="required" rows="8"></textarea>
+                <!--TODO: 10
+                    Hide this div if the field is valid or pristine
+                -->
+                <div>
+                    Please enter a review
+                </div>
+            </div>
+            <!--TODO: 11
+                Disable this button if the form is invalid
+  
+                Test the application
+            -->
+            <button type="submit" class="btn btn-success" >Submit</button>
+        </form>
+    </div>
+  </div>
+  

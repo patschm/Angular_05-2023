@@ -1,0 +1,20 @@
+<div class="container">
+    <h3>Reviews</h3>
+    <div class="row-sm-4">
+        <ul class="list-group">
+            <li class="list-group-item" *ngFor="let review of reviews$ | async">
+                <article>
+                    <header>
+                        <h4>Score: {{review.score}}</h4>
+                    </header>
+                    <section>
+                        {{review.text}}
+                        <h5>{{review.author}}</h5>
+                    </section>
+  
+                </article>
+            </li>
+        </ul>
+    </div>
+  </div>
+  

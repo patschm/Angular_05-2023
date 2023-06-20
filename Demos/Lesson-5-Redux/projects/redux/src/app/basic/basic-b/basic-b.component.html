@@ -1,0 +1,5 @@
+<h1>Component B</h1>
+<input type="text" [(ngModel)]="text" /><button (click)="onSend()">Send</button>
+<ul>
+    <li *ngFor="let msg of messages"><span>{{msg?.text}}</span>&nbsp;&nbsp;<button (click)="onDelete(msg?.index!)" >[X]</button></li>
+</ul>

@@ -1,0 +1,18 @@
+
+<h1>{{ name }}</h1>
+<input type="text" value="{{name}}" /><span>One-way</span>
+<br/>
+<input type="text" [value]="name" /><span>One-way</span>
+<br/>
+<input type="text" [(ngModel)]="name" /><span>Two-way</span>
+<br/>
+<button (click)="toggle()" >Toggle</button>
+<h1 *ngIf="hidden">Hello World!</h1>
+<hr />
+<h1>Bind to anything you like</h1>
+<input type={{type}} />
+<br/>
+<input type="text" [(ngModel)]="type" />
+<h1 [style.background-color]="color">Bind to any html attribute</h1>
+
+<hr />

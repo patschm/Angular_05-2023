@@ -1,0 +1,14 @@
+
+<h1>{{name}}</h1>
+
+<form [formGroup]="theForm" (ngSubmit)="submit()">
+  <input type="text" formControlName="name" /><span [hidden]="!form.name?.errors">Name is required</span>
+  <br/>
+  <input type="number" formControlName="age" />
+  <div  [hidden]="!form.age?.errors">
+    <span *ngIf="form.age?.errors?.['min']">Leeftijd te laag</span>
+    <span *ngIf="form.age?.errors?.['max']">Leeftijd te hoog</span>
+  </div>
+  <br/>
+  <button [disabled]="!theForm.valid" type="submit">Post</button>
+</form>

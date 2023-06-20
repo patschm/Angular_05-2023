@@ -1,0 +1,11 @@
+<hr />
+    <form (ngSubmit)="onSubmit()">
+      username <input type="text" name="username" [(ngModel)]="username" #uname="ngModel" required="required" />
+      <br/>
+      password <input type="text" name="password" [(ngModel)]="password" #pword="ngModel" required="required" />
+      <br/>
+      <span *ngIf="!uname.valid || !pword.valid || !isAuthenticated">{{ message }}</span>
+      <br/>
+      <button type="submit">Login</button>
+    </form>
+

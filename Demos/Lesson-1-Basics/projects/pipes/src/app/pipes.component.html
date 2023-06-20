@@ -1,0 +1,20 @@
+<h1>Date</h1>
+<h1>{{ today | date }}</h1>
+<h1>{{ today | date: 'dd-MM-yyyy' }}</h1>
+<hr/>
+<h1>Numbers</h1>
+<h1>{{ price | number}}</h1>
+<h1>{{ price | number:"4.3-5":"en-US"}}</h1>
+<hr/>
+<h1>Currency</h1>
+<!-- code, symbol, symbol-narrow are new in angular 5. Was a boolean before -->
+<h1>{{ price | currency:"CAD":"code":"3.3-6"}}</h1>
+<h1>{{ price | currency:"CAD":"symbol":"3.3-6"}}</h1>
+<h1>{{ price | currency:"CAD":"symbol-narrow":"3.3-6"}}</h1>
+<hr/>
+<h1>Texts</h1>
+<h1>{{text | uppercase }}</h1>
+<h1>{{text | titlecase }}</h1>
+<hr/>
+<h1>Custom pipe</h1>
+<h1>{{ price | dutch}}</h1>

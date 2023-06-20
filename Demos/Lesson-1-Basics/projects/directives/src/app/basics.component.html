@@ -1,0 +1,38 @@
+<h1 *ngIf="hidden">* notation is an expando. Used for structural directives (template based)</h1>
+<ng-template [ngIf]="hidden">
+        <h1>This is the same</h1>
+</ng-template>
+
+<div *ngIf="hidden; then isTrue else isFalse"></div>
+<ng-template #isTrue>
+        <button (click)="toggle()">Show</button>
+</ng-template>
+<ng-template #isFalse>
+        <button (click)="toggle()">Hide</button>
+</ng-template>
+<hr />
+<ng-container *ngIf="!hidden">
+        <h1>Not part of DOM if false (diplay:none)</h1>
+</ng-container>
+<div [ngSwitch]="number">
+        <h1 *ngSwitchCase="1">One</h1>
+        <h1 *ngSwitchCase="2">Two</h1>
+        <h1 *ngSwitchCase="3">Three</h1>
+        <h1 *ngSwitchCase="4">Four</h1>
+        <h1 *ngSwitchCase="5">Five</h1>
+        <h1 *ngSwitchDefault>Other</h1>
+</div>
+<h2>The magical ngFor</h2>
+<ul>
+        <li *ngFor="let x of numbers; even as isEven; index as s" [ngClass]="{'bgRed':isEven}">({{s}}) {{x}}</li>
+</ul>
+<h2>Or fully expanded</h2>
+<ul>
+        <ng-template ngFor let-x [ngForOf]="numbers" let-s="index" let-isEven="even">
+                <li [ngClass]="{'bgRed':isEven}">({{s}}) {{x}}</li>
+        </ng-template>
+</ul>
+<hr />
+<h1 [ngStyle]="{'background-color': 'yellow', 'color': 'blue'}">ngStyle</h1>
+<h1 [ngClass]="{'someclass':hidden}">ngClass</h1>
+<h1 appCustomAttribute="green">Custom Directive</h1>

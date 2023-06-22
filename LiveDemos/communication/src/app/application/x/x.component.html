@@ -1,5 +1,11 @@
 <h1>Component X</h1>
 <h2>{{data}}</h2>
 <br/>
-<input type="text" />
+<input type="button" value="Click Me!" (click)="clickMe()" />
+
+<br>
+<h2>From my child:&nbsp;{{childData}} </h2>
+
+<hr/>
+<app-y prefix-text="Hello World" (increment)="onIncrement($event)"></app-y>
 

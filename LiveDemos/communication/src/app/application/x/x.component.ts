@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class XComponent {
   public data: string = "Component X";
+  public counter : number = 0;
+  public childData: string = "";
+
+  public clickMe()
+  {
+    this.data = `Component X ${++this.counter}`;
+  }
+
+  public onIncrement(val:string)
+  {
+    this.childData = val;
+  }
 }

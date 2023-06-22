@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-y',
@@ -6,6 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./y.component.css']
 })
 export class YComponent {
-  public data?:string = "Component Y"
+  @Input("prefix-text")
+  public prefix: string = 'Default';
+  @Output()
+  public increment: EventEmitter<string> = new EventEmitter();
 
+  public data: string = this.prefix;
+  public counter : number = 0;
+
+  public clickMe()
+  {
+    this.data = `${this.prefix} ${++this.counter}`;
+    this.increment.emit(this.data);
+  }
 }

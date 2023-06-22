@@ -10,6 +10,10 @@ import { YComponent } from './y/y.component';
     XComponent,
     YComponent
   ],
+  exports: [
+    XComponent,
+    YComponent
+  ],
   imports: [
     CommonModule
   ]

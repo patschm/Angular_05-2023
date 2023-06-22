@@ -5,8 +5,9 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './binding.component.html',
   styleUrls: ['./binding.component.css']
 })
-export class BindingComponent implements OnInit 
+export class BindingComponent implements OnInit
 {
+  public numb: number = 10;
   public name:string = "John Doe";
   public hidden:boolean = false;
   public type:string="checkbox";

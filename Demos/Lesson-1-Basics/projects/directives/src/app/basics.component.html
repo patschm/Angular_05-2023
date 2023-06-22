@@ -1,14 +1,11 @@
-<h1 *ngIf="hidden">* notation is an expando. Used for structural directives (template based)</h1>
+<h1 class="test" *ngIf="hidden">* notation is an expando. Used for structural directives (template based)</h1>
 <ng-template [ngIf]="hidden">
         <h1>This is the same</h1>
 </ng-template>
 
-<div *ngIf="hidden; then isTrue else isFalse"></div>
-<ng-template #isTrue>
+<div *ngIf="hidden; then template1 else template3"></div>
+<ng-template #template1>
         <button (click)="toggle()">Show</button>
-</ng-template>
-<ng-template #isFalse>
-        <button (click)="toggle()">Hide</button>
 </ng-template>
 <hr />
 <ng-container *ngIf="!hidden">
@@ -24,15 +21,19 @@
 </div>
 <h2>The magical ngFor</h2>
 <ul>
-        <li *ngFor="let x of numbers; even as isEven; index as s" [ngClass]="{'bgRed':isEven}">({{s}}) {{x}}</li>
+  <li *ngFor="let x of numbers; even as isEven; index as s" [ngClass]="{'bgRed':!isEven, 'bla':true}">({{s}}) {{x}}</li>
 </ul>
 <h2>Or fully expanded</h2>
 <ul>
-        <ng-template ngFor let-x [ngForOf]="numbers" let-s="index" let-isEven="even">
-                <li [ngClass]="{'bgRed':isEven}">({{s}}) {{x}}</li>
-        </ng-template>
+  <ng-template ngFor let-x [ngForOf]="numbers" let-s="index" let-isEven="even">
+    <li [ngClass]="{'bgRed':isEven}">({{s}}) {{x}}</li>
+  </ng-template>
 </ul>
 <hr />
 <h1 [ngStyle]="{'background-color': 'yellow', 'color': 'blue'}">ngStyle</h1>
 <h1 [ngClass]="{'someclass':hidden}">ngClass</h1>
-<h1 appCustomAttribute="green">Custom Directive</h1>
+<h1 appCustomAttribute="brown">Custom Directive</h1>
+
+<ng-template #template3>
+  <button (click)="toggle()">Hide</button>
+</ng-template>

@@ -1,4 +1,5 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { StateService } from '../state.service';
 
 @Component({
   selector: 'app-y',
@@ -18,5 +19,10 @@ export class YComponent {
   {
     this.data = `${this.prefix} ${++this.counter}`;
     this.increment.emit(this.data);
+    this.state.setState(this.data);
+  }
+
+  constructor(private state: StateService){
+
   }
 }

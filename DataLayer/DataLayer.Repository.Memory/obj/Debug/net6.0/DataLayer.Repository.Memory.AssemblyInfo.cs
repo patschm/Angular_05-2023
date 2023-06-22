@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataLayer.Repository.Memory")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4cd34584e739acfccebb77754b54b7cec86f398")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataLayer.Repository.Memory")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataLayer.Repository.Memory")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

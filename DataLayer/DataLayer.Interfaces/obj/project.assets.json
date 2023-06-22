@@ -8,23 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\vmjoin\\.nuget\\packages\\": {},
+    "C:\\Users\\Patrick\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Repos\\Angular_05-2023\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj",
+      "projectUniqueName": "D:\\Angular\\Angular_05-2023\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj",
       "projectName": "DataLayer.Interfaces",
-      "projectPath": "C:\\Repos\\Angular_05-2023\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj",
-      "packagesPath": "C:\\Users\\vmjoin\\.nuget\\packages\\",
-      "outputPath": "C:\\Repos\\Angular_05-2023\\DataLayer\\DataLayer.Interfaces\\obj\\",
+      "projectPath": "D:\\Angular\\Angular_05-2023\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj",
+      "packagesPath": "C:\\Users\\Patrick\\.nuget\\packages\\",
+      "outputPath": "D:\\Angular\\Angular_05-2023\\DataLayer\\DataLayer.Interfaces\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\vmjoin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Patrick\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -33,7 +33,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -62,26 +61,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.16, 6.0.16]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.16, 6.0.16]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.16, 6.0.16]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.5.23303.2\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

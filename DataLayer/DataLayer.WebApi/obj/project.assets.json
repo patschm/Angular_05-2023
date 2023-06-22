@@ -303,23 +303,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vmjoin\\.nuget\\packages\\": {},
+    "C:\\Users\\Patrick\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Repos\\Angular_05-2023\\DataLayer\\DataLayer.WebApi\\DataLayer.WebApi.csproj",
+      "projectUniqueName": "D:\\Angular\\Angular_05-2023\\DataLayer\\DataLayer.WebApi\\DataLayer.WebApi.csproj",
       "projectName": "DataLayer.WebApi",
-      "projectPath": "C:\\Repos\\Angular_05-2023\\DataLayer\\DataLayer.WebApi\\DataLayer.WebApi.csproj",
-      "packagesPath": "C:\\Users\\vmjoin\\.nuget\\packages\\",
-      "outputPath": "C:\\Repos\\Angular_05-2023\\DataLayer\\DataLayer.WebApi\\obj\\",
+      "projectPath": "D:\\Angular\\Angular_05-2023\\DataLayer\\DataLayer.WebApi\\DataLayer.WebApi.csproj",
+      "packagesPath": "C:\\Users\\Patrick\\.nuget\\packages\\",
+      "outputPath": "D:\\Angular\\Angular_05-2023\\DataLayer\\DataLayer.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\vmjoin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Patrick\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -328,18 +328,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Repos\\Angular_05-2023\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj": {
-              "projectPath": "C:\\Repos\\Angular_05-2023\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj"
+            "D:\\Angular\\Angular_05-2023\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj": {
+              "projectPath": "D:\\Angular\\Angular_05-2023\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj"
             },
-            "C:\\Repos\\Angular_05-2023\\DataLayer\\DataLayer.Repository.Memory\\DataLayer.Repository.Memory.csproj": {
-              "projectPath": "C:\\Repos\\Angular_05-2023\\DataLayer\\DataLayer.Repository.Memory\\DataLayer.Repository.Memory.csproj"
+            "D:\\Angular\\Angular_05-2023\\DataLayer\\DataLayer.Repository.Memory\\DataLayer.Repository.Memory.csproj": {
+              "projectPath": "D:\\Angular\\Angular_05-2023\\DataLayer\\DataLayer.Repository.Memory\\DataLayer.Repository.Memory.csproj"
             }
           }
         }
@@ -370,24 +369,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.16, 6.0.16]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.16, 6.0.16]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.16, 6.0.16]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.16, 6.0.16]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -396,7 +377,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.5.23303.2\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

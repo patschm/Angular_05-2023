@@ -9,7 +9,7 @@ import { Review } from 'src/app/entities';
 })
 export class ProductReviewComponent implements OnInit {
   // TODO: 2 Declare a field reviewForm of type FormGroup
-  public reviewForm: FormGroup
+  public reviewForm: FormGroup;
   public _review: Review = new Review();
   public submitted = false;
 

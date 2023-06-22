@@ -1,19 +1,11 @@
 {
   "Version": 1,
-  "Hash": "mygovNELjt3kI8g+ZmGlvBhHAYY0HZ6L37jf2Gl6y28=",
+  "Hash": "60usnWV7qBGXHSRgsXvvTDO5ke3aIhQbwfS4lEUQwVE=",
   "Source": "DataLayer.WebApi",
   "BasePath": "_content/DataLayer.WebApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [
-    {
-      "Name": "DataLayer.WebApi\\wwwroot",
-      "Source": "DataLayer.WebApi",
-      "ContentRoot": "C:\\Repos\\Angular_05-2023\\DataLayer\\DataLayer.WebApi\\wwwroot\\",
-      "BasePath": "_content/DataLayer.WebApi",
-      "Pattern": "**"
-    }
-  ],
+  "DiscoveryPatterns": [],
   "Assets": []
 }

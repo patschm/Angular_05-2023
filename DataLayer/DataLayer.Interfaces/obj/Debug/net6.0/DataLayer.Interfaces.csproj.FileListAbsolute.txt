@@ -23,3 +23,15 @@ C:\Repos\Angular_05-2023\DataLayer\DataLayer.Interfaces\obj\Debug\net6.0\DataLay
 C:\Repos\Angular_05-2023\DataLayer\DataLayer.Interfaces\obj\Debug\net6.0\refint\DataLayer.Interfaces.dll
 C:\Repos\Angular_05-2023\DataLayer\DataLayer.Interfaces\obj\Debug\net6.0\DataLayer.Interfaces.pdb
 C:\Repos\Angular_05-2023\DataLayer\DataLayer.Interfaces\obj\Debug\net6.0\ref\DataLayer.Interfaces.dll
+D:\Angular\Angular_05-2023\DataLayer\DataLayer.Interfaces\bin\Debug\net6.0\DataLayer.Interfaces.deps.json
+D:\Angular\Angular_05-2023\DataLayer\DataLayer.Interfaces\bin\Debug\net6.0\DataLayer.Interfaces.dll
+D:\Angular\Angular_05-2023\DataLayer\DataLayer.Interfaces\bin\Debug\net6.0\DataLayer.Interfaces.pdb
+D:\Angular\Angular_05-2023\DataLayer\DataLayer.Interfaces\obj\Debug\net6.0\DataLayer.Interfaces.csproj.AssemblyReference.cache
+D:\Angular\Angular_05-2023\DataLayer\DataLayer.Interfaces\obj\Debug\net6.0\DataLayer.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+D:\Angular\Angular_05-2023\DataLayer\DataLayer.Interfaces\obj\Debug\net6.0\DataLayer.Interfaces.AssemblyInfoInputs.cache
+D:\Angular\Angular_05-2023\DataLayer\DataLayer.Interfaces\obj\Debug\net6.0\DataLayer.Interfaces.AssemblyInfo.cs
+D:\Angular\Angular_05-2023\DataLayer\DataLayer.Interfaces\obj\Debug\net6.0\DataLayer.Interfaces.csproj.CoreCompileInputs.cache
+D:\Angular\Angular_05-2023\DataLayer\DataLayer.Interfaces\obj\Debug\net6.0\DataLayer.Interfaces.dll
+D:\Angular\Angular_05-2023\DataLayer\DataLayer.Interfaces\obj\Debug\net6.0\refint\DataLayer.Interfaces.dll
+D:\Angular\Angular_05-2023\DataLayer\DataLayer.Interfaces\obj\Debug\net6.0\DataLayer.Interfaces.pdb
+D:\Angular\Angular_05-2023\DataLayer\DataLayer.Interfaces\obj\Debug\net6.0\ref\DataLayer.Interfaces.dll

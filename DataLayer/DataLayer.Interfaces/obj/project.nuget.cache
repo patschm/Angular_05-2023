@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q7g6UBHMqFnziHcqrXGX638oIbFIcN3+6bdp/zPzzU3RyhdpTLsaWcrv94Pak1gzXOR6H/mJ047nj5lBy4kQHQ==",
+  "dgSpecHash": "0skHO9PlsEIf1UQuKNpzQqZ6h6jVOIxG0Y00syTsh9d9uCxlKmVtg4DXn7CHRdJuR/2PC5Kitpq7G953itRqiQ==",
   "success": true,
-  "projectFilePath": "C:\\Repos\\Angular_05-2023\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\vmjoin\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
-    "C:\\Users\\vmjoin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
-    "C:\\Users\\vmjoin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\Angular\\Angular_05-2023\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

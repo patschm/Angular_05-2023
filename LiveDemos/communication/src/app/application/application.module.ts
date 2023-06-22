@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { XComponent } from './x/x.component';
 import { YComponent } from './y/y.component';
+import { StateService } from './state.service';
 
 
 
@@ -16,6 +17,7 @@ import { YComponent } from './y/y.component';
   ],
   imports: [
     CommonModule
-  ]
+  ],
+  providers:[StateService]
 })
 export class ApplicationModule { }

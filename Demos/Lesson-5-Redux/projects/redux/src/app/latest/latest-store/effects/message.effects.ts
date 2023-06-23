@@ -2,9 +2,8 @@ import { Injectable } from '@angular/core';
 import { Actions, ofType, createEffect } from '@ngrx/effects';
 import { MessageService } from '../../message.service';
 import { loadedMessages, addMessage, deleteMessage } from '../actions/message.actions';
-import { map, concatMap, catchError, switchMap } from 'rxjs/operators';
-import { empty, EMPTY, Observable, of } from 'rxjs';
-import { EMPTY_OBSERVER } from 'rxjs/internal/Subscriber';
+import { map, concatMap } from 'rxjs/operators';
+
 
 @Injectable()
 export class MessageEffects {
@@ -21,7 +20,7 @@ export class MessageEffects {
         this.msgService.saveMessage({index:0, text:action.payload});
         return action;
       })
-    ), 
+    ),
     {dispatch:false});
   deleteMessage$ = createEffect(()=>this.actions$.pipe(
       ofType(deleteMessage),
@@ -32,7 +31,7 @@ export class MessageEffects {
     ),
     {dispatch:false}
   );
-  
+
   constructor(private actions$: Actions, private msgService:MessageService)
   {}
 }

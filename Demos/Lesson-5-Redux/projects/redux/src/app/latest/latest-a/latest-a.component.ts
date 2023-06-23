@@ -2,19 +2,19 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { props, Store } from '@ngrx/store';
 import { Subscription } from 'rxjs';
 import { MessageService } from '../message.service';
-import { Message, IState, messages, deleteMessage, addMessage, loadedMessages } from '../latest-store';
+import { Message, IState, messageSelector, deleteMessage, addMessage, loadedMessages } from '../latest-store';
 
 @Component({
   selector: 'app-latest-a',
   templateUrl: './latest-a.component.html',
   styleUrls: ['./latest-a.component.css']
 })
-export class LatestAComponent implements OnInit, OnDestroy 
+export class LatestAComponent implements OnInit, OnDestroy
 {
   private storeSubscription?: Subscription;
   public messages?: Message[];
   public text?:string;
-  
+
   public onDelete(idx: number) : void
   {
     this.store.dispatch(deleteMessage({payload:idx}));
@@ -23,17 +23,18 @@ export class LatestAComponent implements OnInit, OnDestroy
   {
     this.store.dispatch(addMessage({payload:this.text!}));
   }
-  
-  ngOnInit() 
+
+  ngOnInit()
   {
-    this.storeSubscription = this.store.select(messages).subscribe(msgs=>this.messages = msgs);
+    this.storeSubscription = this.store.select(messageSelector)
+      .subscribe(msgs=>this.messages = msgs);
     // this.msgService.getAll().subscribe(msg=>{
     //   this.store.dispatch(loadedMessages({ payload: msg }));
     // });
     // With effects
     this.store.dispatch(loadedMessages(null!));
   }
-  ngOnDestroy(): void 
+  ngOnDestroy(): void
   {
     this.storeSubscription?.unsubscribe();
   }

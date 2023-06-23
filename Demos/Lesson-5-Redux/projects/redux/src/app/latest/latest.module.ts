@@ -5,7 +5,7 @@ import { LatestAComponent } from './latest-a/latest-a.component';
 import { LatestBComponent } from './latest-b/latest-b.component';
 import { LatestComponent } from './latest.component';
 import { MessageService } from './message.service';
-import { environment } from 'src/environments/environment';
+import { environment } from '../../environments/environment';
 
 //npm install @ngrx/store --save
 import { StoreModule } from '@ngrx/store';

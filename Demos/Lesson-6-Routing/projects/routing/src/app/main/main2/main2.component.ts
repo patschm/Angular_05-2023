@@ -3,7 +3,7 @@ import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-main2',
-  template: `<h1>Main 2: nr={{someNr}}</h1>
+  template: `<h1>Main 2: nr={{someNr}} and {{text}}</h1>
   <h2 (click)="navigate(1)">One</h2>
   <h2 (click)="navigate(2)">Two</h2>
   <h2 (click)="navigate(3)">Three</h2>
@@ -11,12 +11,14 @@ import { Router, ActivatedRoute } from '@angular/router';
 `,
   styles: []
 })
-export class Main2Component implements OnInit 
+export class Main2Component implements OnInit
 {
   public someNr:number = 0;
+  public text: string = "";
+
   public navigate(nr:number)
   {
-    this.router.navigate(['main2', nr]);
+    this.router.navigate(['main2', nr, 'oops!']);
   }
   constructor(private router: Router, private routersnap:ActivatedRoute) { }
 
@@ -24,6 +26,7 @@ export class Main2Component implements OnInit
   {
     this.routersnap.params.subscribe(bag=>{
       this.someNr = bag['id'];
+      this.text = bag['bla']
     });
   }
 }

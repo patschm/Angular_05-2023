@@ -3,13 +3,13 @@ import { Routes, RouterModule } from '@angular/router';
 import { MainModule } from './main/main.module';
 //import { SubModule } from './sub/sub.module';
 
-const routes: Routes = [];
+// const routes: Routes = [];
 
-@NgModule({
-  imports: [RouterModule.forRoot(routes, {enableTracing:true}),
-  MainModule,
-  //SubModule
-  ],
-  exports: [RouterModule]
-})
-export class AppRoutingModule { }
+// @NgModule({
+//   imports: [RouterModule.forRoot(routes, {enableTracing:true}),
+//   MainModule,
+//   //SubModule
+//   ],
+//   exports: [RouterModule]
+// })
+// export class AppRoutingModule { }

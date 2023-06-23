@@ -15,14 +15,20 @@ export class ProductgroupListComponent implements OnInit {
 
   // TODO: 9
   // Inject the ProductgroupService
-  constructor(private dataSvc: ProductgroupService) { }
+  constructor(public dataSvc: ProductgroupService) { }
 
   // TODO: 10
   // Call the productgroups() from the ProductgroupService and
   // assign the result to productGroups
   // Test the app
   ngOnInit(): void {
-    this.dataSvc.productgroups$
-      .subscribe(d => this.productGroups = d);
+    // this.dataSvc.productgroups$
+    //   .subscribe(d => this.productGroups = d);
+      // .subscribe({
+      //   next: r=>this.productGroups = r,
+      //   error: err=>console.error(err),
+      //   complete:()=>console.log("done")
+      // });
+      //.subscribe((r:any)=>console.log(r),(err:any)=>console.error(err), ()=>console.log("done"));
   }
 }

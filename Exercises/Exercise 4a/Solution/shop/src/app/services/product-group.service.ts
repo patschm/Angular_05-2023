@@ -10,11 +10,11 @@ import { IENDPOINTS, IRestEndpoints } from '../app.config';
 //  - retry, catchError (from rxjs/operators)
 import { Injectable, Inject } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { catchError, retry } from 'rxjs/operators';
+import { catchError, retry, tap } from 'rxjs/operators';
 
 // TODO: 2
 // Make this class a service
-@Injectable()
+@Injectable({providedIn:"root"})
 export class ProductgroupService {
 
   protected handleError<T>(result?: T) {
@@ -32,7 +32,7 @@ export class ProductgroupService {
     // retry 3 times and handle errors (handleError Method)
     // and return the observable
     return this.http.get<ProductGroup[]>(this.config.apiEndpoint + 'productgroups')
-      .pipe(retry(3), catchError(this.handleError([])));
+      .pipe(tap(t=>console.log(t)),retry(3), catchError(this.handleError([])));
   }
   // TODO: 3
   // Inject the HttpClient service here

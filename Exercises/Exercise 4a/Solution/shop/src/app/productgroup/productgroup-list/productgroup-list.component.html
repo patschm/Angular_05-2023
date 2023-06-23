@@ -1,6 +1,6 @@
 <div class="container">
     <div class="row">
-       <div class="col-md-4" *ngFor="let productgroup of productGroups">
+       <div class="col-md-4" *ngFor="let productgroup of dataSvc.productgroups$ | async">
             <a class="card mb-4 box-shadow" role="button">
                     <img src="https://angular-training.azureedge.net/{{productgroup.image}}"  [alt]="productgroup.name" class="mx-auto card-img-top" />
                     <div class="card-body text-center">

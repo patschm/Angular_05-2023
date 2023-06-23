@@ -7,8 +7,8 @@ import { Sub2Component } from './sub2/sub2.component';
 import { RouterModule, Routes} from '@angular/router';
 
 const route: Routes = [
-  { 
-    path: 'sub', component:SubComponent,
+  {
+    path: '', component:SubComponent,
     children:[
       { path:"sub1", component:Sub1Component},
       { path:"sub2", component:Sub2Component},
